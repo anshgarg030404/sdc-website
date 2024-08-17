@@ -10,10 +10,9 @@ export default function aboutUs(){
                     <p className="text-justify">Dedicated to propelling the university towards its vision of becoming a digitally dependent organization. Our department is entrusted with the crucial task of developing and implementing innovative software solutions that enhance the daily operations of both faculty and students. Selected from among the university's brightest minds, our students work on projects that streamline administrative tasks, improve academic management, and foster a more connected and efficient campus environment. By leveraging cutting-edge technology, we ensure that GGSIPU remains a leader in educational innovation, committed to improving the learning experience and operational efficiency across the university.</p>
                 </div>
 
-                <div className="flex justify-evenly  md:text-2xl align-middle ">
+                <div className=" grid grid-flow-row md:grid-cols-2  space-y-5 md:space-y-0  md:text-2xl align-middle ">
                     <Become/>
-                     <SocialMediaTransition/>
-                    
+                    <SocialMediaTransition/>
                 </div>
             </div>
         </>
